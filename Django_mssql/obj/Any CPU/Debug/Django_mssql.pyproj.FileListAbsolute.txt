@@ -1,0 +1,1 @@
+C:\Users\zhdru\source\repos\Django_mssql\Django_mssql\obj\Any CPU\Debug\Django_mssql.pyproj.CoreCompileInputs.cache
