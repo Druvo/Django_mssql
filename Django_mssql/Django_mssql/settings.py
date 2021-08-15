@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
 INSTALLED_APPS = [
     'app',
+    'jazzmin',
     # Add your apps here to enable them
     'django.contrib.admin',
     'django.contrib.auth',
@@ -78,7 +79,7 @@ WSGI_APPLICATION = 'Django_mssql.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'django',
+        'NAME': 'TEL',
         'HOST': 'MSI',
         'USER': '',
         'PASSWORD': '',
